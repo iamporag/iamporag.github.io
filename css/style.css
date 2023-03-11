@@ -621,3 +621,13 @@ footer{
     }
     
 }
+
+
+@media only screen and (max-width: 262px){
+.iphone-on {
+    position: absolute;
+    right: 39px;
+    top: 367px;
+    width: 50%;
+  }
+}
