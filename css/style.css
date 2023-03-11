@@ -176,58 +176,225 @@ footer{
 .btn-dark.animated{
  opacity: 1;
 }
+.mobileView{
+    color: #fff;
+    background: #fff;
+    border: none;
+}
 
 
 
 @media only screen and (max-width: 768px) {
     
-   
+ 
+    .logo{
+        width: 150px;
+       margin-left: 65px;
+    }
+    .mobileView{
+        color: #fff;
+        background: #fff;
+        border: none;
+    }
+    .typewrite{
+        font-size: 24px;
+        color: #aecb2c;
+    }
+    .hero-para{
+        font-size: 18px;
+    }
+    .btn-dark{
+        margin-left: 18px;
+    }
+    .app-features-p {
+        text-align: center;
+        font-size: 14px;
+        line-height: 30px;
+        padding: 15px 0;
+    }
     .app-features-h3{
-    font-size: 20px;  
+        font-size: 25px;
     }
-.app-features-p{
-    font-size: 14px;
-}
-.iphone-off{
-    width: 85%;
-    position: relative;
-    margin-bottom: -1140px;
-
-}
-.iphone-on {
-    position: absolute;
-    right: 66px;
-    top: 400px;
-    width: 51%;
-}
-.iphone-btn{
-    position: absolute;
-    right: 90px;
-    top: 343px;
-}
-
-
-
-    .col-4-footer {
-        width: 100%;
-        float: none;
-        margin-top: 0px;
-       font-weight: 400;
+    .iphone-btn{
+        position: absolute;
+        right: 90px;
+        width: 50px;
+        top: 23px;
     }
-    
-    .footer-logo {
-        margin-bottom: 35px;
+    .iphone-on {
+        position: absolute;
+        right: 68px;
+        top: 85px;
+        width: 50%;
     }
+    .iphone-off{
+        width: 85%;
+        position: relative;
+        margin-bottom: -500px;
     
+    }
 }
 
 
-@media only screen and (max-width: 700px) {
-    
-    .cr:after,
-    .me:after {
-       
-        display: none;
+@media only screen and (max-width: 412px) {
+
+
+    .logo{
+        width: 150px;
+       margin-left: 85px;
+    }
+    .mobileView{
+        color: #fff;
+        background: #fff;
+        border: none;
+    }
+    .typewrite{
+        font-size: 24px;
+        color: #aecb2c;
+    }
+    .hero-para{
+        font-size: 18px;
+    }
+    .btn-dark{
+        margin-left: 25px;
+    }
+    .app-features-h3{
+        font-size: 25px;
+    }
 }
-    
+@media only screen and (max-width: 390px) {
+
+
+    .logo{
+        width: 150px;
+       margin-left: 65px;
+    }
+    .mobileView{
+        color: #fff;
+        background: #fff;
+        border: none;
+    }
+    .typewrite{
+        font-size: 24px;
+        color: #aecb2c;
+    }
+    .hero-para{
+        font-size: 18px;
+    }
+    .btn-dark{
+        margin-left: 18px;
+    }
+    .app-features-p {
+        text-align: center;
+        font-size: 14px;
+        line-height: 30px;
+        padding: 15px 0;
+    }
+    .app-features-h3{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 375px) {
+
+
+    .logo{
+        width: 150px;
+       margin-left: 55px;
+    }
+    .mobileView{
+        color: #fff;
+        background: #fff;
+        border: none;
+    }
+    .typewrite{
+        font-size: 24px;
+        color: #aecb2c;
+    }
+    .hero-para{
+        font-size: 18px;
+    }
+    .btn-dark {
+        padding: 15px 35px;
+        font-size: 17px;
+        font-weight: 600;
+        background: #453e3e;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        border-radius: 50px;
+        transition: 0.3s;
+        margin-left: 35px;
+    }
+    .app-features-h3{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+
+    .logo{
+        width: 150px;
+       margin-left: 35px;
+    }
+    .mobileView{
+        color: #fff;
+        background: #fff;
+        border: none;
+    }
+    .typewrite{
+        font-size: 24px;
+        color: #aecb2c;
+    }
+    .hero-para{
+        font-size: 18px;
+    }
+    .btn-dark {
+        padding: 15px 35px;
+        font-size: 17px;
+        font-weight: 600;
+        background: #453e3e;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        border-radius: 50px;
+        transition: 0.3s;
+        margin-left: 25px;
+    }
+    .app-features-h3{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+
+
+    .logo{
+        width: 150px;
+       margin-left: 35px;
+    }
+    .mobileView{
+        color: #fff;
+        background: #fff;
+        border: none;
+    }
+    .typewrite{
+        font-size: 24px;
+        color: #aecb2c;
+    }
+    .hero-para{
+        font-size: 18px;
+    }
+    .btn-dark {
+        padding: 15px 35px;
+        font-size: 17px;
+        font-weight: 600;
+        background: #453e3e;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        border-radius: 50px;
+        transition: 0.3s;
+        margin-left: 95px;
+    }
+    .app-features-h3{
+        font-size: 25px;
+    }
 }
