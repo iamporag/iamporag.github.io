@@ -1,0 +1,119 @@
+@media only screen and (max-width:1120px){
+   
+    .cta-info{
+        margin-left: 50px;
+    }
+    .download-info{
+        width: 80%;
+    }
+}
+@media only screen and (max-width:1024px){
+    .iphone-on {
+ 
+        right: 162px;
+        width: 50%;
+    }
+
+    .iphone-btn {
+       
+        right: 185px;
+    }
+}
+@media only screen and (max-width:1011px){
+    .iphone-on {
+ 
+        right: 156px;
+    
+    }
+
+}
+@media only screen and (max-width: 991px) {
+    .background-header{
+        display: none;
+    }
+    .iphone-off,
+    .iphone-btn,
+    .iphone-on{
+        display: none;
+    }
+    .cta-info {
+        width: 100%;
+      margin-left: 0;
+      text-align: center;
+       
+    }
+    .p-features{
+         padding: 0 40px;
+    }
+    .app-features-box{
+        width: 100%;
+        float: none;
+        margin-bottom: 50px;
+    }
+    .app-features-box h3{
+        margin: 15px 0;
+    }
+    .col-p{
+        padding: 0 40px;
+    } 
+    .fb,
+    .tw,
+    .dr{
+        margin-top: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    .col-md-4-footer{
+        width: 100%;
+        float: none;
+        margin-top: 0px;
+       font-weight: 400;
+    }
+    
+    .logo-footer {
+        margin-bottom: 35px;
+    }
+    
+}
+
+@media only screen and (max-width: 700px) {
+    
+    .cr:after,
+    .me:after {
+       
+        display: none;
+}
+    
+}
+
+
+@media only screen and (max-width: 424px) {
+    
+
+
+    .logo{
+        width: 150px;
+    }
+    .mobileView {
+        margin-top: -56px;
+        margin-left: 216px;
+    }
+}
+
+
+@media only screen and (max-width: 373px) {
+    
+
+
+    .logo {
+        width: 100%;
+       margin: 0 auto;
+    }
+    .mobileView {
+        font-size: 100%;
+       margin: 0 auto;
+    }
+}

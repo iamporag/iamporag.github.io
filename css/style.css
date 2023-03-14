@@ -1,0 +1,547 @@
+@font-face {
+    font-family: 'HelveticaNeue-Thin';
+    src: local('HelveticaNeue-Thin.otf'), url('HelveticaNeue-Thin.otf') format('opentype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 a {
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 30px;
+}
+.navbar-sticky{
+    min-height: 80px;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 30px;
+}
+
+.background-header{
+    background: rgba(53, 53, 53, 0.99) !important;
+  height: 80px!important;
+  position: fixed!important;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
+  z-index: 9999;
+  transition: 0.3s;
+}
+
+.background-header .navbar-nav li a.active {
+  color: #ed563b!important;
+  border-bottom: 1px solid rgb(198, 195, 195);
+    transition:  0.5s;
+}
+
+.hero{
+    background-image: linear-gradient(#3a3a3a9c, #3a3a3a9c), url(../img/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+    
+}
+
+.nav-link {
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 30px;
+    padding-bottom: 2px;
+    transition: 0.5s;
+   
+
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #ed563b!important;
+    border-bottom: 1px solid rgb(198, 195, 195);
+      transition:  0.5s;
+}
+.nav-link:hover{
+    color: #ffffff;
+    border-bottom: 1px solid rgb(198, 195, 195);
+    transition:  0.5s;
+    
+   
+}
+
+
+.cta{
+    display: inline-block;
+    margin-top: 90px;
+    position: relative;
+   
+}
+.typewrite{
+    font-size: 32px;
+    color: #f55150;
+    margin-bottom: 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.hero-para {
+    font-size: 36px;
+    line-height: 40px;
+    font-family: 'HelveticaNeue-Thin';
+    color: white;
+    margin-bottom: 55px;
+}
+
+
+.imgbox{
+    float: right;
+    position: absolute;
+    right: -135px;
+}
+
+.iphone-off{
+    width: 85%;
+    position: relative;
+    margin-bottom: -240px;
+
+}
+.btn-dark {
+    padding: 15px 35px;
+    font-size: 24px;
+    font-weight: 600;
+    background: #453e3e;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 0.3s;
+    
+}
+.btn-dark:hover{
+    background: #383737;
+}
+
+/* App Features */
+
+#app-features .container{
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#app-features h2{
+    color: #8a8a8a;
+    margin-bottom: 40px;
+}
+
+.p-features{
+    font-family: 'HelveticaNeue-Thin';
+    font-size: 22px;
+    line-height: 28px;
+    padding: 0px 130px;
+}
+
+.app-features-box h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.col-p{
+    font-family: 'HelveticaNeue-Thin';
+    font-size: 18px;
+    line-height: 24px;
+    color: #646464;
+}
+.row{
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+/* NOSE SECTION */
+#nose {
+    background: url('../img/nose-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+.download-info{
+    width: 50%;
+    padding: 200px 0;
+}
+#nose h2{
+    margin-bottom: 40px;
+    color: #fff;
+    text-transform:capitalize ;
+}
+
+.reddish {
+    color: #f55150;
+}
+
+.download-info p{
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'HelveticaNeue-Thin';
+    margin-bottom: 50px;
+}
+
+
+.download-btn{
+    padding: 15px;
+    background: #d9332d;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-left: 20px;
+}
+.download-btn:hover{
+    background: #c33934;
+    transition: 0.3s;
+}
+
+/* FOOTER */
+
+
+.blog{
+    background: #2e2e38;
+}
+.blog .container{
+   padding: 120px 20px;
+}
+.blog h4{
+ font-size: 20px;
+ color: #fff;
+}
+.blog p{
+        font-family: 'HelveticaNeue-Thin';
+        color: #fff;
+}
+.list-group{
+    margin-top: 25px;
+    font-family: 'HelveticaNeue-Thin';
+}
+.reddish-bg{
+    background: url(../img/rectangle.png) no-repeat;
+}
+
+
+.list-group li {
+    list-style: none;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 25px;
+    padding-left: 70px;
+}
+
+.col-md-4-footer{
+   margin-top: 77px;
+   color: #fff;
+   padding: 30px;
+}
+.smallText{
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+
+/* COPYRIGHT */
+
+footer {
+background: #d7dedc;
+}
+
+footer .container{
+   padding: 40px;
+   text-align: center;
+    
+}
+.inline{
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: middle;
+}
+.inline a{
+    text-decoration: none;
+    color: #000;
+}
+.cr,
+.me{
+    margin-right: 40px;
+
+}
+.fb,
+.tw {
+    margin-right: 40px;
+}
+.fb,
+.tw,
+.dr{
+    margin-top: -20px;
+}
+.cr::after,
+.me::after {
+    content: '';
+    border: 2px solid #555555;
+    margin-left: 35px;
+}
+/* ANIMATIONS */
+.iphone-on {
+    position: absolute;
+    right: 169px;
+    top: 98px;
+    width: 52%;
+}
+.iphone-btn{
+    position: absolute;
+    right: 200px;
+}
+
+
+.classname{
+    opacity: 0;
+}
+.classname.animated{
+    opacity: 1;
+}
+.classname1{
+    opacity: 0;
+    animation-delay:3.2s;
+}
+.classname1.animated{
+    opacity: 1;
+}
+
+.btn-dark{
+    opacity: 0;
+}
+.btn-dark.animated{
+ opacity: 1;
+}
+.mobileView{
+    color: #fff;
+    background: #fff;
+    border: none;
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+
+.contact .container{
+    padding: 60px 20px;
+}
+.section-title h2{
+  text-align: center;
+text-transform: uppercase;
+color: #8a8a8a;
+margin-bottom: 40px;
+}
+  
+  .contact .info {
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+    float: left;
+  }
+  .section-title p {
+    text-align: center;
+    font-family: 'HelveticaNeue-Thin';
+    font-size: 22px;
+    line-height: 28px;
+    padding: 0px 130px;
+  }
+  
+  .contact .info i {
+    font-size: 20px;
+    color: #149ddd;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #dff3fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #050d18;
+  }
+  
+  .contact .info p {
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #173b6c;
+  }
+  
+  .contact .info .email p {
+    padding-top: 5px;
+  }
+  
+  .contact .info .social-links {
+    padding-left: 60px;
+  }
+  
+  .contact .info .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    margin-right: 10px;
+  }
+  
+  .contact .info .social-links a:hover {
+    background: #149ddd;
+    color: #fff;
+  }
+  
+  .contact .info .email:hover i,
+  .contact .info .address:hover i,
+  .contact .info .phone:hover i {
+    background: #149ddd;
+    color: #fff;
+  }
+  
+  .contact .php-email-form {
+    width: 100%;
+    padding: 0 20px 20px 20px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  }
+  
+  .contact .php-email-form .form-group {
+    padding-bottom: 8px;
+  }
+  
+  .contact .php-email-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  
+  .contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .contact .php-email-form .error-message br+br {
+    margin-top: 25px;
+  }
+  
+  .contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .contact .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    animation: animate-loading 1s linear infinite;
+  }
+  
+  .contact .php-email-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .contact .php-email-form label {
+    padding-bottom: 8px;
+  }
+  
+  .contact .php-email-form input,
+  .contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+  }
+  
+  .contact .php-email-form input {
+    height: 44px;
+  }
+  
+  .contact .php-email-form textarea {
+    padding: 10px 15px;
+  }
+  
+  .contact .php-email-form button[type=submit] {
+    background: #149ddd;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+  }
+  
+  .contact .php-email-form button[type=submit]:hover {
+    background: #37b3ed;
+  }
+  
+  @keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
