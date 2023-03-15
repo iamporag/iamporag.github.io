@@ -61,6 +61,9 @@
     .dr{
         margin-top: 20px;
     }
+   .section-title p{
+        padding: 0;
+    }
 }
 
 
