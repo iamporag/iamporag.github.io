@@ -104,16 +104,39 @@
 }
 
 
+
 @media only screen and (max-width: 373px) {
     
-
+      
 
     .logo {
-        width: 100%;
-       margin: 0 auto;
+        width: 50%;
+        margin-left: -23px;
+        margin-top: -18px;
     }
     .mobileView {
-        font-size: 100%;
-       margin: 0 auto;
+        margin-right: -21px;
+       
     }
+    
+}
+
+
+@media only screen and (max-width: 372px) {
+    
+      
+
+    .logo {
+        margin: 0 auto;
+        width: 100% !important;
+        margin-bottom: 15px;
+     
+    }
+    .mobileView {
+     
+       margin: 0 auto;
+       overflow: hidden;
+       width: auto;
+    }
+    
 }
